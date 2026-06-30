@@ -1,3 +1,6 @@
+![Security](https://github.com/basel5001/study-buddy-ai/actions/workflows/security.yml/badge.svg)
+![CI](https://github.com/basel5001/study-buddy-ai/actions/workflows/ci.yml/badge.svg)
+
 # Study Buddy AI
 
 React-based quiz generation frontend for turning study material into multiple-choice quizzes using an external AI backend.
