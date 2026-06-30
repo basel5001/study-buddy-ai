@@ -133,7 +133,7 @@ function App() {
                 min="1"
                 max="20"
                 value={numQuestions}
-                onChange={(e) => setNumQuestions(parseInt(e.target.value))}
+                onChange={(e) => { const val = parseInt(e.target.value); if (!isNaN(val)) setNumQuestions(val); }}
               />
             </label>
 
